@@ -23,10 +23,8 @@ $("#sendMail").on("click", function(){
   
 	$.ajax({
 		url:'send.php',
-		type:'GET',
-		cache:false,
+		type:'POST',
 		data:{ 'name': name, 'email':email, 'tel': tel},
-		dataType:'html',
 		beforeSend: function() {
 			$("#sendMail").prop("disabled", true);
 		},
