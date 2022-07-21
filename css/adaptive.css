@@ -1,0 +1,104 @@
+/*Large devices, Wide Screens */
+@media only screen and (max-width:1220px){
+    [class*="__container"]{
+        max-width: 1000px;
+        margin: 0 10%;
+    }
+    .discount__img{
+       display: none;  
+    }
+    .header__menu{
+        gap: 150px;
+    }
+    .choose__info h1{
+        font-size: 38px;
+    }   
+    .choose__image img{
+        max-width: 500px;
+     }
+     .btn__chooseSwap.left{
+        margin: 200px 0px 0px -60px;
+    }
+    
+    .btn__chooseSwap.right{
+        margin: 200px -60px 0px 0px;
+    }
+    .choose__info p{
+        margin: 0px 0px 30px 0px;
+        }
+   .btn__chooseCourse{
+            padding: 14px 33px;
+            font-weight: 600;
+    }
+    .education__video img{
+        max-width: 1000px;
+    }
+    .education__item img{
+        max-width: 200px;
+    }
+    .education__item span{
+        font-size: 40px;
+        padding: 0px 0px 10px 0px;
+    }
+    .experts__list{
+        position: relative;
+    }
+    
+    .experts__list a{
+        position: absolute;
+        padding: 20% 99%;
+        margin: 0px -20px;
+      }
+        
+}
+
+/* Medium devices, Desktop */
+@media only screen and (max-width:992px){
+    [class*="__container"]{
+        min-width: 500px;
+        margin: 0;
+    }
+    body{
+        padding: 0px 30px;
+    }
+
+    .discount__img{
+        display: none;
+    }
+}
+
+/* Small devices, tablet */
+@media only screen and (max-width: 768px){
+
+}
+
+/*Extra small devices, Phones*/
+@media only screen and (max-width: 480px){
+
+}
+
+/*Custom, Iphone, Retina*/
+@media only screen and (max-width: 500px){
+    [class*="__container"]{
+        max-width: 500px;
+        margin: 0;
+    }
+    body{
+        padding: 0px 30px;
+    }
+    .calc{
+        max-width:80%;
+        margin: 0px 40px;
+    }
+    .calc__btn{
+      max-width: 70px;
+      max-height: 80px;
+      font-size: 29px;
+      padding: 5px;
+    }
+    .calc__btn_equal{
+        min-width: 170px;;
+    }
+    .calc__result{
+        max-width:100%; }
+}
