@@ -65,4 +65,4 @@ function phoneTest(input){
 //перевірка імені
 function nameTest(input){
   return /^[a-zA-Zа-яА-ЯёЁ'][a-zA-Z-а-яА-ЯёЁ' ]+[a-zA-Zа-яА-ЯёЁ']?$/.test(input.value)
-}ж
+}
