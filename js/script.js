@@ -4,7 +4,8 @@ document.getElementById('discount').onclick = function() {
   document.getElementById('advertising').hidden = true;
 };
 
-$("#sendMail").on("click", function(){
+$("#sendMail").on("click", function(e){
+	e.preventDefault();
 	var name = $("#formName").val().trim();
 	var email = $("#formEmail").val().trim();
 	var tel = $("#formTel").val().trim();
